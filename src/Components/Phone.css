@@ -1,0 +1,127 @@
+.phonecontainer{
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin: auto;
+overflow-x: hidden;
+}
+
+.head{
+   
+    text-align: left;
+    padding-top: 5vw;
+    margin-left: 5vw;
+}
+.head p{
+    padding-top:0 ;
+ font-size: 1.5vw;
+}
+.head h3{
+    text-align: left;
+    font-size: 2vw;
+}
+.head h1{
+    height: 20vh;
+    text-align: left;
+}
+.flxbtn Button{
+    margin: 1vw;
+    border-radius: 0;
+    padding: 0vw 3vw;
+    font-size: 1vw;
+}
+.flxbtn Button:hover{
+    color: white;
+    background-color: red;
+    border: none;
+
+}
+.flxbtn Button h5{
+height: 5vh;
+}
+flxbtn-btn {
+    
+    font-size:1vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.head{
+   
+    text-align: left;
+    padding-top: 5vw;
+    margin-left: 5vw;
+}
+.head p{
+    padding-top:0 ;
+ font-size:2.5vw;
+}
+.head h3{
+    text-align: left;
+    font-size: 3.5vw;
+}
+.head h1{
+    overflow: hidden;
+    height: auto;
+    text-align: left;
+}
+.flxbtn Button{
+    
+    margin: 1vw;
+    border-radius: 0;
+    padding: 0vw 4vw;
+    font-size: 2vw;
+}
+flxbtn-btn h5{
+ width: 5vw;
+ height: 4vh;
+    font-size:2vw;
+}
+}
+
+@media (max-width: 575px){
+.phonecontainer{
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 5vw;
+
+}
+.phonecontainer img{
+   
+    padding-left: 8vw;
+}
+.head{
+   
+    text-align: left;
+    padding-top: 20vw;
+    margin-left: 0vw;
+    
+}
+.head p{
+    padding-top: 5vw;
+ font-size: 5vw;
+ padding-bottom: 5vw;
+}
+.head h3{
+    text-align: left;
+    font-size: 9vw;
+}
+.head h1{
+   height: 26vh;
+    text-align: left;
+    font-size: 14vw;
+}
+.flxbtn Button{
+    margin: 1vw;
+    border-radius: 0;
+    padding: 2vw 8vw;
+    font-size: 3vw;
+}
+.phoneicon{
+    font-size: 5vw;
+   
+}
+}

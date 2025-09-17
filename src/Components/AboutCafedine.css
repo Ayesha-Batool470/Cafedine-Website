@@ -1,0 +1,109 @@
+
+.aboutdi{
+
+    width:100vw;
+   height: auto;
+
+ padding-bottom: 10vw;
+  
+  
+}
+.aboutdi  .HFOUR  {
+    width: 90vw;
+   padding-top: 25vw;
+  text-align: center;
+  justify-content: center;
+  color: red;
+
+  padding-bottom: 1vw;
+    font-size:2vw;
+}
+.aboutdi .HONE{
+    width: 90vw;
+     height: 20vh;
+   justify-content: center;
+text-align: center;
+    font-size:3vw;
+  padding-top: 1vw;
+ 
+    
+}
+.aboutcafedi{
+    text-align: center;
+    width: 90vw;
+    display:flex;
+    flex-direction: row;
+    margin-left:10vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+
+
+.aboutdi{
+ 
+padding-top: 0vw;
+    width:100vw;
+   height: auto;
+
+ padding-bottom: 10vw;
+  margin-bottom: 0vw;
+  
+}
+.aboutdi  .HFOUR  {
+ 
+    width: 90vw;
+  margin-top: 5vw;
+  text-align: center;
+  justify-content: center;
+  color: red;
+
+  padding-bottom: 1vw;
+    font-size:3.5vw;
+}
+.aboutdi .HONE{
+    width: 90vw;
+     height: 20vh;
+   justify-content: center;
+text-align: center;
+    font-size:5vw;
+  padding-top: 1vw;
+ 
+    
+}
+.aboutcafedi{
+    text-align: center;
+    width: 90vw;
+    display:flex;
+    margin-left:3vw;
+}
+}
+@media (max-width: 575px){
+
+    .aboutdi{
+        margin-top: 100vw;
+      padding-top: 30vw;
+        height:100vh;
+   
+    justify-content:center;
+     text-align:center ;
+    padding-bottom:0vw;
+    margin-bottom: 370vw;
+}
+.aboutdi .HFOUR{
+    margin-top: 10vw;
+    padding-top: 50vw;
+    color:red;
+    font-size:7vw;
+}
+.aboutdi .HONE{
+    height: auto;
+    font-size:9vw;
+   text-align: center;
+    padding-bottom: 5vw;
+}
+.aboutcafedi{
+    display:flex;
+    margin-left:5vw;
+    flex-direction: column;
+}
+
+}

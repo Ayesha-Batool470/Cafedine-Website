@@ -1,0 +1,76 @@
+.carddiv{
+overflow-x: hidden;
+    height: 70vh;
+    width:100vw;
+   
+   margin-top: 20vw;
+     border: none;
+     
+}
+.aboutimg{
+    width:25vw;
+  
+border-radius:0;
+}
+.aboutbody{
+    text-align:left;
+}
+.abouttitle{
+    font-size:1.5vw;font-weight:600;
+    height: 4vh;
+}
+.text{
+    font-size:1.2vw;color:grey;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.carddiv{
+    width:25vw;
+    margin-top:10vw;
+     border: none;
+     height: auto;
+   
+}
+.aboutimg{
+    width:25vw;
+border-radius:0;
+}
+.aboutbody{
+    text-align:left;
+}
+.abouttitle{
+    width: 30vw;
+    font-size:2vw;font-weight:600;
+     
+}
+.text{
+    width: 25vw;
+    font-size:2.5vw;color:grey;
+   height: 35vh;
+}
+    
+}
+@media (max-width: 575px){
+    .carddiv{
+        margin-top: 10vw;
+    width:80vw;
+    margin:2vw;
+    border: none;
+}
+.aboutimg{
+    width:85vw;
+border-radius:0;
+margin-bottom: 2vw;
+margin-top: 10vw;
+}
+.aboutbody{
+    text-align:left;
+}
+.abouttitle{
+    
+    font-size:6vw;font-weight:600;
+}
+.text{
+    font-size:4vw;color:grey;
+}
+    
+}

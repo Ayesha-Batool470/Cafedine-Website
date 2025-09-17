@@ -1,0 +1,51 @@
+.cardservice{
+     width: 28vw ;
+     height:auto ;
+     padding:1vw;
+     border:none;
+     border-radius:0;
+}
+.cardtitle{
+    font-size:1.6vw ;
+     padding-top:2vw;
+}
+.cardtext{
+    font-size:1.5vw;
+    color:gray;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.cardservice{
+     width: 40vw ;
+     height:auto ;
+     padding:1vw;
+     border:none;
+     border-radius:0;
+}
+.cardtitle{
+    font-size:3vw ;
+     padding-top:2vw;
+}
+.cardtext{
+    font-size:2.3vw;
+    color:gray;
+}
+}
+
+@media (max-width: 575px){
+
+    .cardservice{
+     width: 90vw ;
+     height:auto ;
+     padding:5vw;
+     border:none;
+     border-radius:0;
+}
+.cardtitle{
+    font-size:5vw ;
+     padding-top:2vw;
+}
+.cardtext{
+    font-size:5vw;
+    color:gray;
+}
+}

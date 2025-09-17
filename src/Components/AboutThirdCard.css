@@ -1,0 +1,127 @@
+.card{
+    width: 25vw;
+     margin: 1vw;
+     border: 0;
+}
+.cardimg{
+    width: 25vw;
+     border-radius: 0 ;
+     padding-bottom:1vw;
+}
+.cardbody{
+    text-align: left;
+}
+.cardtitle{
+     font-size: 2vw;
+      font-weight: 700 ;
+      padding-bottom:1vw;
+}
+.cardtitle2{
+     font-size: 1.5vw;
+     padding-bottom:1vw;
+}
+.cradtext{
+    font-size: 1.4vw;
+     color: grey; 
+}
+.cardicon{
+    font-size:3vw;
+    padding:.2vw;
+    background-color:lightgray;
+    color:gray;
+    margin-top:1vw;
+    margin-right:1vw;
+}
+.icondiv{
+    margin-left: 1vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.card{
+    width: 25vw;
+     margin: 2vw;
+     border: 0;
+}
+.cardimg{
+    width: 26vw;
+     border-radius: 0 ;
+     padding-bottom:1vw;
+}
+.cardbody{
+    text-align: left;
+}
+.cardtitle{
+     font-size: 2.5vw;
+      font-weight: 700 ;
+      text-align: center;
+      padding-bottom:1vw;
+}
+.cardtitle2{
+     font-size: 2vw;
+     text-align: center;
+     padding-bottom:1vw;
+}
+.cradtext{
+    font-size: 2vw;
+    text-align: center;
+     color: grey; 
+}
+.cardicon{
+    font-size:3vw;
+    padding:.4vw;
+    margin-left: 0vw;
+    background-color:lightgray;
+    color:gray;
+    margin-top:1vw;
+    margin-right:1vw;
+}
+.icondiv{
+    margin-left: 6vw;
+}
+
+
+}
+@media (max-width: 575px){
+.card{
+    width: 85vw;
+     margin: 0vw;
+     border: 0;
+}
+.cardimg{
+    width: 85vw;
+     border-radius: 0 ;
+     padding-bottom:1vw;
+}
+.cardbody{
+    text-align: left;
+}
+.cardtitle{
+     font-size: 7vw;
+      font-weight: 700 ;
+      text-align: center;
+      padding-bottom:1vw;
+}
+.cardtitle2{
+     font-size: 4vw;
+     text-align: center;
+     padding-bottom:1vw;
+}
+.cradtext{
+    font-size: 5vw;
+    text-align: center;
+     color: grey; 
+}
+.cardicon{
+   
+    font-size:7vw;
+    padding:.4vw;
+    margin-left: 2vw;
+    background-color:lightgray;
+    color:gray;
+    margin-top:1vw;
+    margin-right:1vw;
+}
+.icondiv{
+    margin-left: 25vw;
+}
+
+}

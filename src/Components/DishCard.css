@@ -1,0 +1,81 @@
+.dishcard{
+    display: flex;
+    border: 3px dotted rgb(135, 133, 133);
+    width: 40vw;
+    margin: 1vw;
+    overflow-x: hidden;
+}
+.dishcard img{
+    padding: 1vw;
+    width: 12vw;
+    height: 10vw;
+    object-fit: cover;
+}
+.dishcontent{
+ padding-top: 3vw;
+}
+.dishcontent h4{
+    height: 5vh;
+    font-size: 1.5vw;
+}
+.dishcontent p{
+    font-size: 1.3vw;
+    color: grey;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.dishcard{
+    display: flex;
+    border: 1px dotted rgb(135, 133, 133);
+    width: 40vw;
+    height: 25vh;
+    margin: 2vw;
+}
+.dishcard img{
+    padding: 1vw;
+    width: 18vw;
+    height: 13vw;
+    object-fit: cover;
+}
+.dishcontent{
+ padding-top: 3vw;
+}
+.dishcontent h4{
+   
+    font-size: 2vw;
+}
+.dishcontent p{
+    font-size: 2vw;
+    color: grey;
+}
+
+
+
+}
+
+@media (max-width: 575px){
+    .dishcard{
+        margin-top: 5vw;
+    display: flex;
+    border: 1px dotted rgb(135, 133, 133);
+    width: 80vw;
+    height: 25vh;
+    margin: 2vw;
+}
+.dishcard img{
+    margin: 2vw;
+    width: 35vw;
+    height: 30vw;
+    object-fit: cover;
+}
+.dishcontent{
+ padding-top: 3vw;
+}
+.dishcontent h4{
+    font-size: 5vw;
+}
+.dishcontent p{
+    font-size: 5vw;
+    color: grey;
+}
+
+}

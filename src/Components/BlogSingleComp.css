@@ -1,0 +1,12 @@
+.blogSinglecard h1{
+
+    height: auto;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+  
+
+
+    
+}
+
+@media (max-width: 575px){}

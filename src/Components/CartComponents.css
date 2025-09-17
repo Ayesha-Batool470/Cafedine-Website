@@ -1,0 +1,508 @@
+.cartcontainer{
+    padding-top: 8vw;
+    margin-left: 10vw;
+    width: 80vw;
+    height: auto;
+    padding-bottom: 8vw;
+
+}.cartcontainer .headlin{
+  padding-left: 5vw;
+padding-top: 2vw;
+padding-bottom: 2vw;
+  color: #0f0e0e;
+border-top: 1px solid gray;
+  display: flex;
+border-bottom: 1px solid gray;
+  justify-content: space-between;
+ padding-right: 10vw;
+}
+.headlin p{
+ 
+  font-size: 1.25vw;
+  font-weight: 700;
+
+}
+.carticon{
+margin-top: 1vw;
+  font-size: 2.5vw;
+  color: gray;
+  
+}
+.mini {
+    display: flex;
+  width: 30vw;
+align-content: center;
+}
+.mini h5{
+   align-content: center;
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+.cart1{
+  
+  padding-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1vw;
+  margin-bottom: 2vw;
+}
+
+.cart1 img{
+  width: 10vw;
+  height: 6vw;
+  object-fit:cover; 
+  margin-right: 2vw;
+}
+
+.cart1 #input{
+  margin-left: 0;
+  width: 10vw;
+  height: 4vw;
+margin-top: 1vw;
+  border: 1px solid #ddd;
+ text-align: center;
+
+}
+
+.cart1 p{
+    font-size: 1vw;
+    width: 5vw;
+    margin-left: 0;
+align-content: center;
+}
+.lasthead{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2vw;
+    justify-content: space-between;
+
+}
+.displ{
+display: flex;
+    margin-top: 0;
+    align-content: center;
+}
+.dangerbtn{
+  
+    width: 10vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 1vw;
+}
+.lightbtn{
+    align-content: center;
+    width: 10vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 1vw;
+}
+ .displ #inputing{
+    align-content:first baseline;
+  width: 13vw;
+  height: 4vw;
+margin-top: 0vw;
+  border: 1px solid #ddd;
+ text-align: center;
+ margin-left: 1vw;
+
+}
+.lastcontainer{
+    width: 35vw;
+    margin-top: 8vw;
+    margin-left: 40vw;
+    
+}
+.lastcontainer h5{
+    font-size: 2vw;
+}
+.cartcontainer p{
+    font-size: 1.3vw;
+}
+.lastcontainer h6{
+    font-size: 1.3vw;
+ 
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+.lastcontainer .checkbtn{
+    width: 35vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 1vw;
+}
+.mixhead{
+  height: 10vh;
+  display: flex;
+     justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.mixhead p{
+ padding-top: 1vw;
+}
+.spacet{
+  display: none;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.cartcontainer{
+    padding-top: 8vw;
+    margin-left: 8vw;
+    width: 85vw;
+    height: auto;
+    padding-bottom: 8vw;
+
+}.cartcontainer .headlin{
+  padding-left: 2vw;
+padding-top: 2vw;
+padding-bottom: 2vw;
+  color: #0f0e0e;
+border-top: 1px solid gray;
+  display: flex;
+border-bottom: 1px solid gray;
+  justify-content: space-between;
+ padding-right: 10vw;
+ 
+}
+.headlin p{
+ 
+  font-size: 9vw;
+  margin-left: -3vw;
+  font-weight: 700;
+
+}
+.carticon{
+margin-top: 1vw;
+  font-size: 3vw;
+  color: gray;
+ 
+}
+.mini {
+    display: flex;
+  width: 20vw;
+align-content: center;
+}
+.mini h5{
+   align-content: center;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.cart1{
+  
+  padding-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1vw;
+  margin-bottom: 2vw;
+}
+
+.cart1 img{
+  width: 6vw;
+  height: 6vw;
+  object-fit:cover; 
+  margin-right: 2vw;
+}
+.space{
+  display: none;
+}
+.cart1 #input{
+  margin-left: -1vw;
+  width: 10vw;
+  height: 4vw;
+margin-top: 1vw;
+  border: 1px solid #ddd;
+ text-align: center;
+
+}
+
+.cart1 p{
+    font-size: 7vw;
+    width: 5vw;
+    margin-left: -1vw;
+align-content: center;
+}
+.lasthead{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2vw;
+    justify-content: space-between;
+
+}
+.displ{
+display: flex;
+    margin-top: 0;
+    align-content: center;
+}
+.dangerbtn{
+  
+    width: 20vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 2vw;
+}
+.lightbtn{
+    align-content: center;
+    width: 20vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 2vw;
+}
+ .displ #inputing{
+    align-content:first baseline;
+  width: 20vw;
+  height: 6vw;
+margin-top: 0vw;
+  border: 1px solid #ddd;
+ text-align: center;
+ margin-left: 1vw;
+
+}
+.lastcontainer{
+    width: 35vw;
+    margin-top: 8vw;
+    margin-left: 40vw;
+    
+}
+.lastcontainer h5{
+    font-size: 3.5vw;
+}
+.cartcontainer p{
+    font-size: 2vw;
+}
+.lastcontainer h6{
+    font-size: 2vw;
+ 
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+.lastcontainer .checkbtn{
+    width: 38vw;
+    height: 8vh;
+    border: 0;
+    margin-top: 3vw;
+    border-radius: 0;
+    font-size: 2vw;
+    margin-left: 0vw;
+}
+.mixhead{
+  height: 10vh;
+  display: flex;
+     justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.mixhead p{
+ padding-top: 1vw;
+}
+}
+
+@media (max-width: 575px){
+  
+
+.cartcontainer{
+    padding-top: 20vw;
+    margin-left: 8vw;
+    width: 85vw;
+    height: auto;
+    padding-bottom: 8vw;
+    
+
+
+  
+  }
+.over{
+
+  overflow-x:scroll;
+  white-space: wrap;
+}
+
+.cartcontainer .headlin{
+   width: 210vw;
+   display: inline-block;
+  padding-left: 2vw;
+padding-top: 2vw;
+padding-bottom: 2vw;
+  color: #0f0e0e;
+border-top: 1px solid gray;
+  display: flex;
+border-bottom: 1px solid rgb(35, 34, 34);
+  justify-content: space-between;
+ padding-right: 10vw;
+ 
+}
+.headlin p{
+ display: inline-block;
+  font-size: 5vw;
+  margin-left: 0vw;
+  font-weight: 700;
+
+}
+.carticon{
+  display: inline-block;
+margin-top: 1vw;
+  font-size: 10vw;
+  color: gray;
+ margin-left: 15vw;
+}
+.mini {
+  
+    display: flex;
+  width: 20vw;
+align-content: center;
+margin-right: 50vw;
+
+}
+.mini h5{
+   align-content: center;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.cart1{
+  width: 200vw;
+  padding-top: 10vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10vw;
+  margin-bottom: 2vw;
+}
+
+.cart1 img{
+  width: 15vw;
+  height: 15vw;
+  object-fit:cover; 
+  margin-right: 0vw;
+margin-left: 3vw;
+}
+.cart1 h5{
+  margin-left: 5vw;
+  font-size: 5vw;
+  
+}
+.space{
+  display: none;
+}
+.spacet{
+  display: inline-block;
+}
+.cart1 #input{
+  margin-left:25vw;
+  margin-left: 25vw;
+  width: 10vw;
+  height: 4vw;
+margin-top: 5vw;
+  border: 1px solid #ddd;
+ text-align: center;
+
+}
+
+.cart1 p{
+    font-size: 7vw;
+    width: 5vw;
+    margin-left: 0vw;
+    padding-left: 5vw;
+    margin-right: 7vw;
+align-content: center;
+}
+.lasthead{
+justify-content: space-between;
+  width: 100vw;
+    align-content: center;
+    display: flex;
+   
+    border-bottom: 1px solid gray;
+    padding-bottom: 2vw;
+    justify-content: space-between;
+  
+
+}
+.displ{
+display: flex;
+    margin-top: 0;
+    align-content: center;
+    flex-direction: column;
+}
+.dangerbtn{
+  padding: 0 15vw;
+    margin-left: 90vw;
+    width: 120vw;
+    height: 10vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 6vw;
+}
+.lightbtn{
+    align-content: center;
+    width: 50vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0;
+    font-size: 5vw;
+}
+ .displ #inputing{
+    align-content:first baseline;
+  width: 55vw;
+  padding: 8vw;
+  height: 8vw;
+margin-top: 2vw;
+  border: 1px solid #ddd;
+ text-align: center;
+ margin-left: 1vw;
+
+}
+.lastcontainer{
+    width: 75vw;
+    margin-top: 8vw;
+    margin-left: 2vw;
+    
+}
+.lastcontainer h5{
+    font-size: 5vw;
+}
+.cartcontainer p{
+    font-size: 5vw;
+}
+.lastcontainer h6{
+    font-size: 4vw;
+ 
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+.lastcontainer .checkbtn{
+    width: 76vw;
+    height: 8vh;
+    border: 0;
+    margin-top: 3vw;
+    border-radius: 0;
+    font-size: 4vw;
+    margin-left: 0vw;
+}
+.mixhead{
+  height: 10vh;
+  display: flex;
+     justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.mixhead p{
+ padding-top: 1vw;
+ font-size: 5vw;
+}
+
+
+
+
+
+
+
+}

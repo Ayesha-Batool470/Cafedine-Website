@@ -1,0 +1,61 @@
+.main-container{
+
+
+overflow-x: hidden;
+ display: flex;
+height:auto;
+   
+    width:90vw;
+  
+    position:absolute;
+    left:10vw;
+    bottom:-32vw;
+}
+.homeicon{
+    font-size: 3vw;
+    color:gray;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.main-container{
+
+  
+     height: auto;
+ padding: 0vw;
+ display: flex;
+    margin-bottom: 10vw;
+   
+    width:100vw;
+    margin:0vw;
+    position:absolute;
+    left:4vw;
+    bottom:-35vw;
+}
+.homeicon{
+    font-size: 5vw;
+    color:gray;
+}
+
+}
+@media (max-width: 575px){
+
+.main-container{
+
+  
+     height: 190vh;
+
+ display: flex;
+
+   flex-direction: column;
+    width:90vw;
+ 
+    position:absolute;
+    left:5vw;
+   top: 190vw;
+}
+.homeicon{
+    font-size: 12vw;
+    color:gray;
+}
+
+
+}

@@ -1,0 +1,239 @@
+.AboutSec{
+    display:flex;
+    width:80vw;
+    margin:auto;
+    padding-top:10vw;
+    padding-bottom:8vw;
+}
+.aboutimg1{
+    width:20vw;
+    height:70vh;
+    margin-right:2vw;
+}
+.aboutimg2{
+    width:25vw;
+    height:80vh;
+    margin-right:2vw
+}
+.aboutdiv{
+    padding-top: 0;
+   margin-top: 0;
+   position: relative;
+width: 50vw;
+    text-align: left;
+}
+.aboutdiv h1{
+    height: 1vw;
+    text-align: left;
+    font-size:3vw;
+    margin-bottom:5vw;
+ 
+}
+.aboutdiv p{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: start;
+    font-size:1.25vw;
+    
+    color:gray;
+}
+.aboutdiv h5{
+   
+    font-size:1.5vw;
+    padding-bottom:.8vw;
+    font-weight:500;
+}
+.aboutdiv h3{
+    font-size:1.5vw;
+    padding-bottom:.8vw;
+    font-weight:500;
+    color: black;
+    text-align: left;
+}
+.aboutdiv .btn{
+    background-color:red;
+    width:16vw;
+    padding:1vw 2vw;
+    border-radius: 0;
+    margin-top:2vw;
+    font-size:1.5vw;
+    color:white;
+    position:absolute;
+    top:25vw;
+    left:-1vw;
+    
+}
+.aboutsecdiv{
+    display: flex;
+    margin-left: 2vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.aboutsecdiv{
+    display: flex;
+    margin-left: 2vw;
+   
+}
+.AboutSec{
+    display:flex;
+    width:80vw;
+    margin:4vw;
+    padding-top:10vw;
+    padding-bottom:5vw;
+flex-direction: column;
+
+}
+.aboutimg1{
+    width:50vw;
+    height:80vh;
+    margin-right:2vw;
+    margin: 2vw;
+}
+.aboutimg2{
+    width:50vw;
+    height:80vh;
+    margin-right:2vw;
+    margin: 2vw;
+}
+.aboutsecdiv{
+    display: flex;
+    margin-left: 0vw;
+}
+.aboutdiv {
+    height: 90vh;
+margin-left: 4vw;
+padding-bottom: 25vw;
+}
+.aboutdiv h1{
+    height: 1vw;
+    text-align: left;
+    font-size:4vw;
+    margin-bottom:4vw;
+ 
+}
+.aboutdiv p{
+    padding-top: 2vw;
+    text-align: start;
+    font-size:2.5vw;
+    
+    color:gray;
+}
+.aboutdiv h5{
+   
+    font-size:2.5vw;
+    padding-bottom:.8vw;
+    font-weight:500;
+}
+.aboutdiv h3{
+    font-size:2.5vw;
+    padding-bottom:.8vw;
+    font-weight:500;
+    color: black;
+    text-align: left;
+}
+.aboutdiv .btn{
+    background-color:red;
+    width:30vw;
+    padding:1vw 2vw;
+    border-radius: 0;
+    margin-top:2vw;
+    font-size:2.5vw;
+    color:white;
+    position:absolute;
+    top:45vw;
+    left:-0vw;
+    
+}
+.aboutdiv{
+   margin-top: 8vw;
+   position: relative;
+width: 90vw;
+    text-align: left;
+}
+}
+@media (max-width: 575px){
+     
+    .aboutsecdiv{
+    display: flex;
+    margin-left: 2vw;
+    flex-direction: column;
+}
+.AboutSec{
+height: auto;
+    display:flex;
+    width:80vw;
+    margin:4vw;
+    padding-top:10vw;
+    padding-bottom:1vw;
+flex-direction: column;
+
+}
+.aboutimg1{
+    width:85vw;
+    height:80vh;
+    margin-right:2vw;
+    margin: 2vw;
+    margin-top: 10vw;
+margin-bottom: 5vw;
+}
+.aboutimg2{
+    width:85vw;
+    height:80vh;
+    margin-right:2vw;
+    margin: 2vw;
+}
+.aboutsecdiv{
+    height: auto;
+    display: flex;
+    margin-left: 0vw;
+}
+.aboutdiv h1{
+    height: auto;
+    text-align: left;
+    font-size:7vw;
+    margin-bottom:2vw;
+ 
+}
+.aboutdiv p{
+   
+    text-align: start;
+    font-size:4vw;
+    
+    color:gray;
+}
+.aboutdiv h5{
+   
+    font-size:4vw;
+    padding-bottom:.8vw;
+    font-weight:500;
+}
+.aboutdiv h3{
+    font-size:4vw;
+    padding-bottom:.8vw;
+    font-weight:500;
+    color: black;
+    text-align: left;
+}
+.aboutdiv .btn{
+    background-color:red;
+    width:45vw;
+    padding:3vw 2vw;
+    border-radius: 0;
+    margin-top:2vw;
+    font-size:4vw;
+    color:white;
+    position:absolute;
+    top:85vw;
+    left:-0vw;
+   
+    
+}
+.aboutdiv{
+    height:60vh;
+   margin-top: 8vw;
+   position: relative;
+width: 90vw;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+}

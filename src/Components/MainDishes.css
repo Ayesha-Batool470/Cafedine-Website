@@ -1,0 +1,92 @@
+.maindishes{
+    width:25vw;
+    margin:1vw;
+}
+ .maindishes .button{
+    margin-top: .5vw;
+    
+    margin-bottom: 2vw;
+    margin-left: 0;
+ }
+.mainimg{
+    width:25vw;
+    border-radius:0;
+   
+
+}
+.mainbody{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    text-align:left;
+}
+.maintitle{
+    font-size:1.5vw;
+    font-weight:600;
+}
+.maintext{
+    font-size:1.2vw;
+    color:grey;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.maindishes{
+
+    width:35vw;
+    margin:1vw;
+    
+    margin-bottom: 5vw;
+}
+.mainimg{
+    width:35vw;
+    border-radius:0;
+
+}
+ .maindishes .button{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 0;
+ }
+.mainbody{
+   
+    text-align:left;
+}
+.maintitle{
+    font-size:2vw;
+    font-weight:600;
+}
+.maintext{
+    font-size:2vw;
+    color:grey;
+}
+
+}
+
+@media (max-width: 575px){
+ .maindishes .button{
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    margin-left: 0;
+ }
+.maindishes{
+    width:85vw;
+    margin:1vw;
+     margin-bottom: 10vw;
+}
+.mainimg{
+    width:85vw;
+    border-radius:0;
+
+}
+.mainbody{
+     padding-top: 4vw;
+    padding-left: 6vw;
+    text-align:left;
+}
+.maintitle{
+    font-size:5vw;
+    font-weight:600;
+}
+.maintext{
+    font-size:4vw;
+    color:grey;
+}
+}

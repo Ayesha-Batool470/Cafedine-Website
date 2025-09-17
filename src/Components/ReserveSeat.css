@@ -1,0 +1,264 @@
+.reservecontainer{
+    display: flex;
+    height: auto;
+     padding-top: 10vw;
+padding-bottom:7vw;
+}
+
+.reserve{
+    
+    width: 65vw;
+    text-align: left;
+   
+    margin-left: 8vw;
+}
+.reserve h3{
+    text-align: left;
+    font-size: 2.5vw;
+}
+.reserve h1{
+    text-align: left;
+    font-size: 3vw;
+
+
+}
+
+
+input{
+   
+    padding: 1vw 1vw;
+    border: 1px solid rgb(178, 176, 176);
+    width: 15vw;
+   margin-left: -4vw;
+   margin-right: 3vw;
+  margin-bottom: 2vw;
+  margin-top: 4vw;
+     font-size: 1.2vw;
+}
+#inp{
+    font-size: 1.3vw;
+    color: gray;
+    margin-top: 1.5vw;
+}
+.secinput{
+    margin-left: -9vw;
+     
+}
+
+.inputdive{
+    
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   
+}
+label{
+    font-size: 1.5vw;
+}
+.reservebtn{
+    color: rgb(242, 238, 238);
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 1vw 3vw;
+    font-size: 1.5vw;
+    margin-top: 5vw;
+}
+.secondreserve{
+    background-color: #f6f6ea;
+margin-right: 10vw;
+    border: 4px dotted black;
+    width: 30vw;
+   height: 85vh;
+   
+    padding: 3vw;
+}.secondreserve h1{
+    padding-bottom: 0vw;
+   
+}
+
+@media (min-width: 576px) and (max-width: 990px) {
+
+input{
+
+    padding: 1vw 1vw;
+    border: 1px solid rgb(178, 176, 176);
+    width: 22vw;
+   margin-left: -5vw;
+   margin-right: 3vw;
+  margin-bottom: 2vw;
+  margin-top: 8vw;
+     font-size: 2vw;
+    
+}
+#inp{
+    font-size: 2vw;
+    color: gray;
+    margin-top: 4vw;
+}
+.secinput{
+    margin-left: -13vw;
+     
+}
+
+.inputdive{
+    width: 80vw;
+   
+    padding-top: 1vw;
+    display: flex;
+    flex-direction:row;
+   flex-wrap: wrap;
+   
+}
+label{
+    font-size: 1.5vw;
+}
+.reservecontainer{
+    display: flex;
+   flex-direction: column;
+    height: auto;
+     padding-top: 10vw;
+
+}
+
+.reserve{
+    
+    width: 90vw;
+    text-align: left;
+   
+    margin-left: 8vw;
+}
+.reserve h3{
+    text-align: left;
+    font-size: 3.5vw;
+}
+.reserve h1{
+    text-align: left;
+    font-size: 5vw;
+    margin-bottom: 5vw;
+
+
+}
+
+
+.reservebtn{
+    color: rgb(242, 238, 238);
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 1vw 3vw;
+    font-size: 3vw;
+    margin-top: 8vw;
+    margin-left: 0;
+}
+.secondreserve{
+    background-color: #f6f6ea;
+margin: 10vw;
+    border: 4px dotted black;
+    width: 80vw;
+    height: 90vh;
+    padding: 3vw;
+    padding-bottom: 5vw;
+}
+.secondreserve h5{
+    padding-top: 0vw;
+    font-size: 2vw;
+}
+.secondreserve p{
+    font-size: 2vw;
+}
+}
+
+@media (max-width: 575px){
+    #inp{
+    font-size: 5vw;
+    color: gray;
+    margin-top: 3vw;
+    margin-bottom: -5vw;
+    margin-right: 4vw;
+}
+.secinput{
+    margin-left: -3vw;
+    margin-right: 3vw;
+     
+}
+    .reservecontainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+     padding-top: 10vw;
+     margin-bottom: 20vw;
+
+}
+
+.reserve{
+    
+    width: 90vw;
+    text-align: left;
+   
+    margin-left: 8vw;
+}
+.reserve h3{
+    text-align: left;
+    font-size:7vw;
+}
+.reserve h1{
+    text-align: left;
+    font-size: 10vw;
+    padding-right: 6vw;
+     margin-bottom: 5vw;
+
+
+}
+
+input{
+   
+    padding: 1vw 1vw;
+    border: 1px solid rgb(178, 176, 176);
+    width: 80vw;
+    padding: 3vw 2vw;
+  margin-right: 3vw;
+  margin-top: 8vw;
+     font-size: 5vw;
+}
+.inputdive{
+    margin-left: 4vw;
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.reservebtn{
+    color: rgb(242, 238, 238);
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 3vw 5vw;
+    font-size: 6vw;
+    margin-top: 8vw;
+    margin-left: 0;
+}
+.secondreserve{
+    background-color: #f6f6ea;
+margin: 5vw;
+margin-top: 20vw;
+    border: 4px dotted black;
+    width: 82vw;
+    height: 80vh;
+    padding: 10vw 5vw;
+}
+.secondreserve h1{
+    
+}
+.secondreserve h5{
+    padding-top: 3vw;
+    font-size: 7vw;
+}
+.secondreserve p{
+    font-size: 5vw;
+}
+.secondreserve h3 i{
+    font-size: 5vw;
+}
+}

@@ -1,0 +1,434 @@
+.ShippingConatiner{
+width: 90vw;
+    height: auto;
+    padding-top: 8vw;
+    padding-bottom: 10vw;
+}
+.shiphead{
+margin-left: 10vw;
+    width: 50vw;
+    display: flex;
+    border-bottom: 2px solid gray;
+    padding-bottom: 1vw;
+    margin-bottom: 5vw;
+  
+}
+.shipdiv{
+    display: flex;
+       margin-left: 2vw;
+    
+}
+.shipdive{
+    display: flex;
+      margin-left: 2vw;
+    
+}
+.shipdiv h5{
+    background-color: red;
+    color: rgb(17, 17, 17);
+    font-size: 2vw;
+    padding: 1vw;
+     
+     
+
+}
+.shipdiv p{
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    align-content: center;
+    font-weight: 700;
+}
+.shipdive h5{
+    border: 1px solid black;
+    color: rgb(20, 19, 19);
+    font-size: 2vw;
+    padding: 1vw;
+}
+.shipdive p{
+    margin-left: 1vw;
+    align-content: center;
+      font-size: 1.5vw;
+}
+.bothheadings{
+    display: flex;
+    
+}
+
+.divone{
+
+width: 65vw;
+    margin-left: 17vw;
+    
+}
+
+
+.inputdiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0vw;
+   
+}
+
+ #inputing {
+  
+  width:22vw;
+margin: 2vw;
+margin-left: -6vw;
+  border: 1px solid #ddd;
+ 
+} 
+#messages{
+    width: 42vw;
+    height: 30vh;
+    margin-top: 1vw;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    margin-left: -6vw;
+
+}
+.shipbtn{
+   width: 15vw;
+    font-size: 1.3vw;
+    border-radius: 0;
+    background-color: red;
+    margin-top: 2vw;
+    padding: 1vw 1vw;
+    margin-left: 21vw;
+}
+.divtwo{
+width: 30vw;
+height: 70vh;
+padding-top: 3vw;
+padding-left: 1vw;
+background-color: antiquewhite;
+margin-left: 5vw;
+}
+.divtwo h5{
+    font-size: 2vw;
+}
+.divtwo p{
+    width: 30vw;
+    font-size: 1.1vw;
+}
+.shipmix h6{
+    width: 17vw;
+    font-size: 1.2vw;
+    justify-content: space-between;
+   margin-left: 13vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    
+}
+.shipmix{
+  height: 10vh;
+  display: flex;
+     justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.shipmix p{
+ padding-top: 1.5vw;
+
+}
+@media (min-width: 576px) and (max-width: 990px) {
+
+
+
+
+.ShippingConatiner{
+width: 90vw;
+    height: auto;
+    padding-top: 8vw;
+    padding-bottom: 10vw;
+}
+.shiphead{
+margin-left: 10vw;
+    width: 80vw;
+flex-wrap: wrap;
+flex-direction: row;
+    display: flex;
+    border-bottom: 2px solid gray;
+    padding-bottom: 1vw;
+    margin-bottom: 5vw;
+  
+}
+.shipdiv{
+    display: flex;
+       margin-left: 2vw;
+    
+}
+.shipdive{
+    display: flex;
+      margin-left: 2vw;
+    
+}
+.shipdiv h5{
+    background-color: red;
+    color: rgb(17, 17, 17);
+    font-size: 3vw;
+    padding: 1vw;
+     
+     
+
+}
+.shipdiv p{
+    margin-left: 1vw;
+    font-size: 2vw;
+    align-content: center;
+    font-weight: 700;
+}
+.shipdive h5{
+    border: 1px solid black;
+    color: rgb(20, 19, 19);
+    font-size: 3vw;
+    padding: 1vw;
+}
+.shipdive p{
+    margin-left: 1vw;
+    align-content: center;
+      font-size: 2vw;
+}
+.bothheadings{
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.divone{
+
+width: 80vw;
+    margin-left: 10vw;
+    
+}
+.divone h2{
+    font-size: 4vw;
+}
+
+.inputdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 0vw;
+   
+}
+
+ #inputing {
+  
+  width:80vw;
+  height: 8vh;
+margin: 2vw;
+margin-left: 0vw;
+  border: 1px solid #ddd;
+ 
+} 
+#messages{
+    width: 80vw;
+    height: 30vh;
+    margin-top: 1vw;
+    font-size: 2vw;
+    padding: 2vw 2vw;
+    margin-left:0vw;
+
+}
+.shipbtn{
+   width: 32vw;
+    font-size: 3vw;
+    border-radius: 0;
+    background-color: red;
+    margin-top: 2vw;
+    padding: 2vw 1vw;
+    margin-left: 48vw;
+       margin-bottom: 10vw;
+}
+.divtwo{
+width: 80vw;
+height: 65vh;
+padding-top: 3vw;
+padding-left: 2vw;
+background-color: antiquewhite;
+margin-left: 10vw;
+}
+.divtwo h5{
+    font-size: 3vw;
+}
+.divtwo p{
+    font-size: 2vw;
+}
+.shipmix h6{
+    width: 17vw;
+    font-size: 2vw;
+    justify-content: space-between;
+   margin-left: 13vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    
+}
+.shipmix{
+  height: 10vh;
+  display: flex;
+     justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.shipmix p{
+ padding-top: 1.5vw;
+
+}
+
+
+
+}
+
+@media (max-width: 575px){
+
+
+
+.ShippingConatiner{
+width: 90vw;
+    height: auto;
+    padding-top: 8vw;
+    padding-bottom: 10vw;
+}
+.shiphead{
+margin-left: 3vw;
+    width: 50vw;
+flex-wrap: nowrap;
+flex-direction: column;
+    display: flex;
+    border-bottom: 2px solid gray;
+    padding-bottom: 1vw;
+    margin-bottom: 15vw;
+  
+}
+.shipdiv{
+    display: flex;
+       margin-left: 2vw;
+    
+}
+.shipdive{
+    display: flex;
+      margin-left: 2vw;
+    
+}
+.shipdiv h5{
+    background-color: red;
+    color: rgb(17, 17, 17);
+    font-size: 3vw;
+    padding: 2vw;
+     font-size: 10vw;
+     
+
+}
+.shipdiv p{
+    margin-left: 3vw;
+    font-size: 5vw;
+    align-content: center;
+    font-weight: 700;
+}
+.shipdive h5{
+    border: 1px solid black;
+    color: rgb(20, 19, 19);
+    font-size: 9vw;
+    padding: 2vw;
+}
+.shipdive p{
+    margin-left: 3vw;
+    align-content: center;
+      font-size: 5vw;
+}
+.bothheadings{
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.divone{
+
+width: 100vw;
+    margin-left: 5vw;
+    
+}
+
+
+.inputdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 0vw;
+ 
+   
+}
+
+ #inputing {
+  
+  width:80vw;
+  height: 10vh;
+ 
+margin: 2vw;
+margin-left: 0vw;
+  border: 1px solid #ddd;
+    
+ 
+} 
+#messages{
+    width: 75vw;
+    height: 20vh;
+    margin-top: 1vw;
+    font-size: 4vw;
+    padding: 2vw 2vw;
+    margin-left: 3vw;
+
+}
+.shipbtn{
+   width: 75vw;
+    font-size: 4vw;
+    border-radius: 0;
+    background-color: red;
+    margin-top: 4vw;
+    padding: 3vw 2vw;
+    margin-left: 3vw;
+       margin-bottom: 10vw;
+}
+.divtwo{
+width: 75vw;
+height: 60vh;
+padding-top: 3vw;
+padding-left: 4vw;
+background-color: antiquewhite;
+margin-left: 10vw;
+}
+.divtwo h5{
+    font-size: 4.5vw;
+}
+.divtwo p{
+    width: 60vw;
+    font-size: 5vw;
+}
+.shipmix h6{
+    width: 27vw;
+    font-size: 4vw;
+    justify-content: space-between;
+   margin-left: 3vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    
+}
+.shipmix{
+  height: 10vh;
+  display: flex;
+     justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.shipmix p{
+ padding-top: 1.5vw;
+
+}
+
+
+
+
+
+
+
+
+}

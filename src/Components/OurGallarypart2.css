@@ -1,0 +1,83 @@
+.discon{
+    display: flex;
+    border-top: 2px solid gray;
+    padding-top: 5vw;
+    margin: 7vw;
+}
+.discon h1{
+    width: 30vw;
+    font-size: 3vw;
+}
+.discon p{
+    width: 70vw;
+    font-size: 1.3vw;
+    color: gray;
+}
+.gall{
+    margin: 7vw;
+}
+.gall img{
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    width: 25vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.discon{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid gray;
+    padding-top: 5vw;
+    margin: 7vw;
+}
+.discon h1{
+    width: 100vw;
+    font-size: 5vw;
+    padding-bottom: 2vw;
+}
+.discon p{
+    width: 100vw;
+    font-size: 2.5vw;
+    color: gray;
+}
+.gall{
+   
+    margin: 7vw;
+}
+.gall img{
+     flex-wrap: wrap;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    width: 40vw;
+}
+}
+
+@media (max-width: 575px){
+.discon{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid gray;
+    padding-top: 5vw;
+    margin: 7vw;
+}
+.discon h1{
+    width: 100vw;
+    font-size: 10vw;
+    padding-bottom: 8vw;
+    margin: 0 5vw;
+}
+.discon p{
+    width: 100vw;
+    font-size: 5vw;
+    color: gray;
+}
+.gall{
+   
+    margin: 7vw;
+}
+.gall img{
+     flex-wrap: wrap;
+    margin-left: 1vw;
+    margin-bottom: 5vw;
+    width: 85vw;
+}
+}

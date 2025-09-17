@@ -1,0 +1,85 @@
+import React from 'react'
+import BlogCard from "./BlogCard";
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import img1 from "../assets/image/1.jpg";
+import img5 from '../assets/image/news-sm-img1.jpg'
+import img6 from '../assets/image/news-sm-img2.jpg'
+import img7 from '../assets/image/news-sm-img3.jpg'
+
+
+
+import BlogSingleCard from './BlogSingleCard';
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaPinterestP } from "react-icons/fa";
+import { IoBasketballOutline } from "react-icons/io5";
+import { CiTwitter } from "react-icons/ci";
+import { BiSolidFace } from "react-icons/bi";
+
+const BlogSingleComp = () => {
+  return (
+   <>
+    <div className="blogcontainer">
+       <div> 
+       <BlogSingleCard img={img1} title="If you are starting off with a new domain name with no traffic so to speak of you."/>
+        </div>
+        <div className="Blogsecondcontain">
+              <input type="text"  placeholder='Enter Email'  />
+              <h2><i>Follow us</i></h2>
+              <div>
+                          <FaFacebookF className="blogicon" />
+                          <CiTwitter className="blogicon" />
+                          <BiSolidFace  className="blogicon"/>
+                          <FaLinkedinIn className="blogicon" />
+                          <FaPinterestP className="blogicon" />
+                          <IoBasketballOutline className="blogicon" />
+                        </div>
+              <h2><i>Popular Posts</i></h2>
+              <div className="popular">
+            <img src={img5} alt="" />
+            <div className="popularmini">
+              <h5>Salted fried chicken recipe .</h5>
+              <p>May 16, 2019</p>
+            </div>
+          </div>
+          <div className="popular">
+            <img src={img6} alt="" />
+            <div className="popularmini">
+              <h5>Lemon rosemary rice cooking.</h5>
+              <p>May 16, 2019</p>
+            </div>
+          </div>
+          <div className="popular">
+            <img src={img7} alt="" />
+            <div className="popularmini">
+              <h5>Join Us For a Delicious Event</h5>
+              <p>May 16, 2019</p>
+            </div>
+          </div>
+
+          
+          <div className="category">
+            <h1>Categories</h1>
+            <p>Web Design (14)</p>
+            <p>Development (12)</p>
+            <p>Marketing (10)</p>
+            <p>Video Production (1)</p>
+          </div>
+          <div className="tag">
+            <h1>Popular Tags</h1>
+            <Button className="tagbtn" variant="light">Design</Button>{" "}
+            <Button className="tagbtn" variant="light">Marketing</Button>{" "}
+            <Button className="tagbtn" variant="light">Development</Button>{" "}
+            <Button className="tagbtn" variant="light">Seo</Button>{" "}
+            <Button className="tagbtn" variant="light">Agency</Button>{" "}
+            <Button className="tagbtn" variant="light">Wordpress</Button>{" "}
+            
+          </div>
+              </div>
+      </div>
+   </>
+  )
+}
+
+export default BlogSingleComp

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+button {
+  display: none;
+}
+
+.slideimg {
+
+  height: 120vh;
+  width: 100vw;
+  object-fit: cover;
+ overflow-x: hidden;
+}
+
+.heading {
+  text-align: left;
+  width: 45vw;
+  height: 80vh;
+}
+.heading h3 {
+  font-size: 1.6vw;
+  color: red;
+  padding-bottom: 2vw;
+  text-align: left;
+}
+.heading h1 {height: 40vh;
+
+  font-size: 3.5vw;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+.button {
+  border-radius: 0;
+  background-color: red;
+  width: 12vw;
+  font-size: 1.5vw;
+  height: 8vh;
+  margin-top: 0vw;
+}
+
+@media (min-width: 576px) and (max-width: 990px) {
+  .heading {
+  text-align: left;
+
+  width: 75vw;
+  height: 70vh;
+}
+.slideimg {
+  height: 120vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.heading h3 {
+  font-size: 3vw;
+  color: red;
+  padding-bottom: 2vw;
+  text-align: left;
+}
+.heading h1 {
+  font-size: 6vw;
+  font-weight: 600;
+  color: white;
+  height: auto;
+ text-align: left;
+}
+.button {
+  text-align: center;
+  
+  border-radius: 0;
+  background-color: red;
+  width: 15vw;
+  height: 8vh;
+  margin-top: 3vw;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+
+}
+@media (max-width: 575px){
+
+  .heading {
+    
+  text-align: left;
+  width: 75vw;
+  height: 80vh;
+}
+.slideimg {
+  height: 130vh;
+  width: 100vw;
+  object-fit:none;
+  
+}
+.heading h3 {
+  font-size: 6vw;
+  color: red;
+  padding-bottom: 2vw;
+  text-align: left;
+}
+.heading h1 {
+  height: auto;
+  font-size: 9vw;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+.button {
+  text-align: center;
+  
+  border-radius: 0;
+  background-color: red;
+  width: 35vw;
+  height: 6vh;
+  margin-top: 6vw;
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+
+}

@@ -1,0 +1,490 @@
+.blogSinglecard{
+    
+    width: 55vw;
+    text-align: left;
+    margin-left: 10vw;
+    padding-bottom: 1vw;
+      border-bottom:  1px solid gray;
+}
+.blogSinglecard h1{
+    width: 50vw;
+    text-align: left;
+padding: 1vw 0;
+    font-size: 3.2vw;
+}
+.singleho{
+    height: auto;
+    margin-bottom: 1vw;
+}
+.blogSinglecard img{
+    width: 50vw;
+}
+.blogSinglecard p{
+   
+    text-align: left;
+    width: 50vw;
+ font-size: 1.3vw;
+}
+.blogSinglecard  .blogbtn{
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    margin-top: 1vw;
+}
+.blogsecond{
+    padding-top: 1.5vw;
+    display: flex;
+    margin-right: 2vw;
+  
+   
+   
+}
+.blogsecond p{
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+.cook{
+    font-size: 1.5vw;
+   border-radius: 0;
+}
+.cook:hover{
+    color: red;
+}
+.smallheading{
+     padding-top: 0vw;
+    display: flex;
+    text-align: center;
+    margin-left: 10vw;
+    padding-bottom: 0vw;
+      border-bottom:  1px solid gray;
+}
+.smallheading p{
+    padding-top: 1.2vw;
+    font-size: 1.3vw;
+}
+.twoicon h5{
+    padding-top: 1.5vw;
+    padding-left: 1vw;
+    font-size: 1.2vw;
+}
+.twoicon{
+    text-align: center;
+    display: flex;
+}
+.blogicon{
+    margin-top: 1.5vw;
+    margin-right: 1vw;
+}
+.commentdiv{
+margin-left: 10vw;
+}
+.commentdiv h1{
+    padding-top: 1vw;
+text-align: left;
+
+}
+.commentdiv .smallimg img{
+width: 6vw;
+height: 5vw;
+}
+.smallimg{
+    margin-top: 2vw;
+}
+.commentdiv .smallimg{
+    display: flex;
+}
+.commentdiv .smallimg2 img{
+width: 6vw;
+height: 5vw;
+}
+.smallimg2{
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+.commentdiv .smallimg2{
+    display: flex;
+}
+
+.secsmallhead{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.secsmallhead h5{
+    padding-left: 2vw;
+    font-size: 1.5vw;
+}
+.secsmallhead p{
+    font-size: 1.2vw;
+}
+.leave{
+    padding: 2vw 2vw;
+    background-color: beige;
+    margin-top: 2vw;
+    margin-left: 10vw;
+}
+#inputs{
+    align-content:first baseline;
+  width: 21vw;
+  height: 4vw;
+
+  border: 1px solid #ddd;
+ text-align: center;
+ margin-left: .1vw;
+
+}
+#message{
+    width: 45vw;
+    height: 30vh;
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+
+}
+.leavebtn{
+   
+    font-size: 1.3vw;
+    border-radius: 0;
+    background-color: red;
+    margin-top: 2vw;
+    padding: 1vw 2vw;
+
+}
+@media (min-width: 576px) and (max-width: 990px) {
+  
+.blogSinglecard{
+    
+    width: 100vw;
+    text-align: left;
+    margin-left: 5vw;
+    padding-bottom: 1vw;
+      border-bottom:  1px solid gray;
+}
+.blogSinglecard h1{
+    width: 90vw;
+    text-align: left;
+padding: 1vw 0;
+    font-size: 4vw;
+}
+.blogSinglecard img{
+    width: 85vw;
+}
+.blogSinglecard p{
+    text-align: left;
+    width: 85vw;
+ font-size: 2.5vw;
+}
+.blogSinglecard  .blogbtn{
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    margin-top: 1vw;
+}
+.blogsecond{
+    padding-top: 1.5vw;
+    display: flex;
+    margin-right: 2vw;
+  
+   
+   
+}
+.blogsecond p{
+    padding-top: 3vw;
+    font-size: 2.5vw;
+    padding-left: 1vw;
+}
+.cook{
+    margin-top: 1vw;
+    font-size: 2.5vw;
+   border-radius: 0;
+}
+.cook:hover{
+    color: red;
+}
+.smallheading{
+     padding-top: 0vw;
+    display: flex;
+    text-align: center;
+    margin-left: 5vw;
+    padding-bottom: 0vw;
+      border-bottom:  1px solid gray;
+}
+.smallheading p{
+    padding-top: 3vw;
+    font-size:2vw;
+}
+.twoicon h5{
+    padding-top: 3vw;
+    padding-left: 1vw;
+    font-size:2vw;
+}
+.twoicon{
+    text-align: center;
+    display: flex;
+}
+.blogicon{
+    margin-top: 3vw;
+    margin-right: 1vw;
+}
+.commentdiv{
+margin-left: 5vw;
+}
+.commentdiv h1{
+    padding-top: 5vw;
+text-align: left;
+
+}
+.commentdiv .smallimg img{
+width: 10vw;
+height: 10vw;
+}
+.smallimg{
+    margin-top: 5vw;
+}
+.commentdiv .smallimg{
+    display: flex;
+}
+.commentdiv .smallimg2 img{
+width: 10vw;
+height: 10vw;
+}
+.smallimg2{
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+.commentdiv .smallimg2{
+    display: flex;
+}
+
+.secsmallhead{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.secsmallhead h5{
+    padding-left: 2vw;
+    font-size: 3vw;
+}
+.secsmallhead p{
+    font-size: 2vw;
+}
+.leave{
+    padding: 4vw 4vw;
+    background-color: beige;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-bottom: 8vw;
+}
+#inputs{
+    align-content:first baseline;
+  width: 80vw;
+  height: 4vw;
+padding: 3vw 2vw;
+  border: 1px solid #ddd;
+ text-align: left;
+ margin-left:1vw;
+
+}
+#message{
+    width: 80vw;
+    height: 30vh;
+    margin-top: 1.5vw;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+
+}
+.leavebtn{
+   
+    font-size: 2.5vw;
+    border-radius: 0;
+    background-color: red;
+    margin-top: 2vw;
+    padding: 1.5vw 3vw;
+    margin-left: 0;
+
+}
+
+    
+}
+
+@media (max-width: 575px){
+
+.blogSinglecard{
+    
+    width: 100vw;
+    text-align: left;
+    margin-left: 5vw;
+    padding-bottom: 1vw;
+      border-bottom:  1px solid gray;
+}
+.blogSinglecard h1{
+    width: 90vw;
+    text-align: left;
+padding: 1vw 0;
+    font-size: 13vw;
+}
+.blogSinglecard img{
+    width: 85vw;
+}
+.blogSinglecard p{
+    text-align: left;
+    width: 85vw;
+ font-size: 5vw;
+}
+.singleho{
+    height: auto;
+    margin-bottom: 10vw;
+}
+.blogSinglecard  .blogbtn{
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    margin-top: 1vw;
+}
+.blogsecond{
+    padding-top: 1.5vw;
+    display: flex;
+    margin-right: 2vw;
+  width: auto;
+   
+   
+}
+.blogsecond p{
+    padding-top: 5vw;
+    font-size: 5vw;
+    padding-left: 1vw;
+}
+.cook{
+    width: 30vw;
+    height: 5vh;
+    margin-top: 3vw;
+    font-size: 5vw;
+   border-radius: 0;
+}
+.cook:hover{
+    color: red;
+}
+.smallheading{
+   width: 80vw;
+     padding-top: 0vw;
+    display: flex;
+    flex-wrap: wrap;
+  height: auto;
+    margin-left: 5vw;
+    padding-bottom: 0vw;
+      border-bottom:  1px solid gray;
+}
+.smallheading p{
+    padding-top: 5vw;
+    font-size:5vw;
+}
+.twoicon h5{
+    padding-top: 3vw;
+    padding-left: 1vw;
+    font-size: 4vw;
+}
+.twoicon{
+    margin-right: 0vw;
+    padding-top: 4vw;
+    text-align: center;
+    display: flex;
+}
+.blogicon{
+    text-align: center;
+    margin-top: 3vw;
+    margin-right: 1vw;
+    font-size: 5vw;
+}
+.commentdiv{
+margin-left: 5vw;
+}
+.commentdiv h1{
+    padding-top: 5vw;
+text-align: left;
+
+}
+.commentdiv .smallimg img{
+width: 20vw;
+height: 20vw;
+}
+.smallimg{
+    margin-top: 5vw;
+}
+.commentdiv .smallimg{
+    display: flex;
+}
+.commentdiv .smallimg2 img{
+width: 20vw;
+height: 20vw;
+}
+.smallimg2{
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+.commentdiv .smallimg2{
+    display: flex;
+}
+
+.secsmallhead{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+.secsmallhead h5{
+    padding-left: 2vw;
+    font-size: 5vw;
+}
+.secsmallhead p{
+    font-size: 4.5vw;
+}
+.leave{
+    padding: 4vw 4vw;
+    background-color: beige;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-bottom: 8vw;
+}
+.leave h4{
+   
+    font-size: 6vw;
+    text-align: center;
+}
+#inputs{
+    
+  width: 60vw;
+  height: 10vw;
+  margin-top: 3vw;
+padding: 3vw 2vw;
+  border: 1px solid #ddd;
+ text-align: left;
+ margin-left:10vw;
+font-size: 4vw;
+
+}
+#message{
+    margin-left: 10vw;
+    width: 60vw;
+    height: 30vh;
+    margin-top: 1.5vw;
+    font-size: 4vw;
+    padding: 1vw 2vw;
+
+}
+.leavebtn{
+   width: 60vw;
+    font-size: 4vw;
+    border-radius: 0;
+    background-color: red;
+    margin-top: 2vw;
+    padding: 3vw 5vw;
+    margin-left: 10vw;
+
+}
+
+
+
+}

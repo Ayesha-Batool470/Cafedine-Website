@@ -1,0 +1,64 @@
+.gallarydiv{
+    padding-top:8vw;
+        justify-content:center;
+        text-align:center;
+        padding-bottom:10vw;
+}
+.gallarydiv h3{
+    color:red;
+    font-size:2vw;
+}
+.gallarydiv h1{
+    font-size:3vw;
+    padding-bottom:5vw;
+
+}
+.gallaryimg{
+    width:25vw;
+    margin-left:2vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+.gallarydiv{
+    padding-top:8vw;
+        justify-content:center;
+        text-align:center;
+        padding-bottom:10vw;
+}
+.gallarydiv h3{
+    color:red;
+    font-size:4vw;
+}
+.gallarydiv h1{
+    font-size:5vw;
+    padding-bottom:5vw;
+}
+.gallaryimg{
+    width:45vw;
+    margin-left:2vw;
+    margin-top: 5vw;
+}
+}
+
+@media (max-width: 575px){
+    .gallarydiv{
+    padding-top:15vw;
+        justify-content:center;
+        text-align:center;
+        padding-bottom:10vw;
+}
+.gallarydiv h3{
+    color:red;
+    font-size:6vw;
+}
+.gallarydiv h1{
+    font-size:10vw;
+    margin: 0 6vw;
+    padding-bottom:5vw;
+    height: auto;
+}
+.gallaryimg{
+    width:90vw;
+    margin: 5vw 0;
+    margin-left:2vw;
+}
+}

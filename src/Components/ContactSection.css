@@ -1,0 +1,184 @@
+.contactcontainer{
+    text-align: center;
+    padding: 10vw 5vw;
+}
+.contactcontainer h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.contactinputdiv{
+    margin-top: 0;
+    margin-left: 10vw;
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactinputdiv input{
+   
+    padding: 1vw 1vw;
+    border: 1px solid rgb(178, 176, 176);
+    width: 32vw;
+    background-color:rgb(251, 251, 241);
+  margin-left: 0vw;
+  margin-top: 0vw;
+     font-size: 1.2vw;
+}
+.contactinputdiv #message{
+    width: 67vw;
+    margin-top: 0vw;
+    font-size: 1.5vw;
+    padding: 1vw 1vw;
+ background-color:rgb(251, 251, 241);
+}
+.Contactbtn{
+    
+    color: rgb(242, 238, 238);
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 1vw 3vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+.secondComp{
+    background-color: rgb(208, 218, 232);
+    height: 90vh;
+    text-align: center;
+    padding-top: 20vw;
+}
+.secondComp h4{
+    font-size: 2vw;
+}
+.secondComp p{
+    font-size: 1vw;
+}
+.contacticon{
+    font-size: 3vw;
+}
+@media (min-width: 576px) and (max-width: 990px) {
+ .contactinputdiv{
+   
+    margin-left: 2vw;
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactcontainer h1{
+    margin-bottom: -5vw;
+}
+.contactinputdiv input{
+   margin-left: 7vw;
+    padding: 2vw 5vw;
+    border: 1px solid rgb(178, 176, 176);
+    width: 70vw;
+    background-color:rgb(251, 251, 241);
+  
+  margin-top: 4vw;
+     font-size: 1.5vw;
+}
+
+.contactinputdiv #message{
+    margin-left: 7vw;
+    width: 70vw;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    padding: 1vw 1vw;
+ background-color:rgb(251, 251, 241);
+}
+
+.Contactbtn{
+    
+    color: rgb(242, 238, 238);
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 2vw 4vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+}
+.secondComp{
+    background-color: rgb(208, 218, 232);
+    height: 70vh;
+    text-align: center;
+    padding-top: 20vw;
+}
+.secondComp h4{
+    font-size: 4vw;
+}
+.secondComp p{
+    font-size: 2vw;
+}
+.contacticon{
+    font-size: 6vw;
+
+
+}
+}
+@media (max-width: 575px){
+
+     .contactinputdiv{
+    margin-left: 2vw;
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contactcontainer h1{
+    margin-bottom: -25vw;
+}
+.contactinputdiv{
+    margin-left: 5vw;
+}
+.contactinputdiv input{
+   
+    padding: 4vw 5vw;
+    border: 1px solid rgb(178, 176, 176);
+    width: 80vw;
+    background-color:rgb(251, 251, 241);
+  
+  margin-top: 6vw;
+     font-size: 3.5vw;
+}
+.contactinputdiv #message{
+    width: 80vw;
+    margin-top: 5vw;
+    font-size: 3.5vw;
+    padding: 2vw 2vw;
+ background-color:rgb(251, 251, 241);
+ margin-left: 0vw;
+}
+.Contactbtn{
+    
+    color: rgb(242, 238, 238);
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 3vw 5vw;
+    font-size: 6vw;
+    margin-top: 10vw;
+}
+.secondComp{
+    background-color: rgb(208, 218, 232);
+    height: 70vh;
+    text-align: center;
+    padding-top: 40vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+}
+.secondComp h4{
+    font-size: 6vw;
+    
+}
+.secondComp p{
+    font-size: 5vw;
+    line-height: 8vw;
+}
+.contacticon{
+    font-size: 9vw;
+
+
+}
+}
